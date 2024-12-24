@@ -1,2 +1,1 @@
-# myfirst
-First 2024
+This is my first time learning github through KodeKloud, I am loving it and it is very interesting
