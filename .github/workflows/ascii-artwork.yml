@@ -17,11 +17,12 @@ jobs:
                 echo "Hello world"
                 ls -ltra
                 cat README.md
-                cowsay -f dragon "Run for cover.... I am a Dragooon" >> dragoon.txt
+            - name: Run dragon
+              run: cowsay -f dragon "Run for cover.... I am a Dragooon" >> dragoon.txt
             
             - name: Test file exists
               run: |
-               grep -i "dragon"
+               grep -i dragon
                cat dragoon.txt
                ls -la
                     
